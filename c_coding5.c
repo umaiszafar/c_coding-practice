@@ -3,7 +3,7 @@ int main()
 {
     int a = 5;
     int b = 15;
-    int division = a / b;
-    printf("Division of %d and %d is %d\n", a, b, division);
+    int percentage = (a * 100) / b;
+    printf("Percentage of %d and %d is %d\n", a, b, percentage);
     return 0;
 }
